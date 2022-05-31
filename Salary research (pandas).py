@@ -13,7 +13,7 @@ sal.info() # 148654 Entries
 sal['BasePay'].mean()
 sal['OvertimePay'].max()
 
-# find job title in specify query
+# find job title in chosen data
 sal[sal['EmployeeName'] =='JOSEPH DRISCOLL']['JobTitle']
 sal[sal['EmployeeName'] =='JOSEPH DRISCOLL']['TotalPayBenefits']
 
