@@ -60,7 +60,7 @@ sns.countplot(x='Month',data=df,hue='Reason',palette='viridis')
 # To relocate the legend
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
-#%%
+
 # data of 9,10 and 11 months was missing
 # create a gropuby object called byMonth, where you group the DataFrame by the month column
 byMonth = df.groupby('Month').count()
