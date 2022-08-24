@@ -79,7 +79,7 @@ def summary(crops=list(data['label'].value_counts().index)):
     print('Maximum Rainfall required: {0:.2f}'.format(x['rainfall'].max()))
 
 
-# %%
+# %
 # compare the average requirement for each crops with average condition
 @interact
 def compare(conditions=['N', 'P', 'K', 'temperature', 'ph', 'humidity', 'rainfall']):
