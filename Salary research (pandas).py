@@ -9,7 +9,6 @@ sal.head()
 # find out how many entries there are
 sal.info() # 148654 Entries
 
-# exploring the data
 sal['BasePay'].mean()
 sal['OvertimePay'].max()
 
