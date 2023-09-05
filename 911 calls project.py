@@ -2,14 +2,12 @@
 import numpy as np
 import pandas as pd
 
-#%%
 # visualization libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style('whitegrid')
 
-#%%
-df = pd.read_csv('/Users/janekom/Desktop/Refactored_Py_DS_ML_Bootcamp-master/10-Data-Capstone-Projects/911.csv')
+df = pd.read_csv('/10-Data-Capstone-Projects/911.csv')
 df.info()
 df.head(3)
 
