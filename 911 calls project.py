@@ -11,7 +11,6 @@ df = pd.read_csv('/10-Data-Capstone-Projects/911.csv')
 df.info()
 df.head(3)
 
-#%%
 # What are the top 5 zipcodes for 911 calls?
 df['zip'].value_counts().head(5)
 
