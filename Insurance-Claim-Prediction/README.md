@@ -14,3 +14,8 @@ This data frame contains the following columns:
 * **region:** the residential area of policyholder in the US (northeast = 0, northwest = 1, southeast = 2, southwest = 3)
 * **charges:** individual medical costs billed by health insurance
 * **insurance claim:** yes = 1, no = 0
+
+### Objective:
+- Understand the Dataset & cleanup (if required).
+- Build classification model to predict weather the insurance will be claimed or not.
+- Also fine-tune the hyperparameters & compare the evaluation metrics of vaious classification algorithms.
