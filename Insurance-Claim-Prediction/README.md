@@ -22,7 +22,6 @@ This data frame contains the following columns:
 
 
 ## Plan of Actions:
-
 Here are some of the necessary steps:
 
 * Data Exploration
