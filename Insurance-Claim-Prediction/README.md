@@ -1,8 +1,8 @@
-### About:
+## About:
 A challenging project, to anticipate whether the insurance will be claimed or not. The complexity arises due to the fact that the dataset has fewer samples, and is slightly imbalanced. Can we overcome these obstacles and build a good predictive model to classify them?
 
 
-### Description of the data columns:
+## Description of the data columns:
 This data frame contains the following columns:
 
 * **age:** age of policyholder
@@ -15,7 +15,7 @@ This data frame contains the following columns:
 * **charges:** individual medical costs billed by health insurance
 * **insurance claim:** yes = 1, no = 0
 
-### Objective:
+## Objective:
 - Understand the Dataset & cleanup (if required).
 - Build classification model to predict weather the insurance will be claimed or not.
 - Also fine-tune the hyperparameters & compare the evaluation metrics of vaious classification algorithms.
