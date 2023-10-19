@@ -6,7 +6,7 @@ A challenging project, to anticipate whether the insurance will be claimed or no
 This data frame contains the following columns:
 
 * **age:** age of policyholder
-* **sex:** gender of policy holder (female=0, male=1)
+* **sex:** gender of policy holder (where female=0, male=1)
 * **bmi:** Body mass index, providing an understanding of body, weights that are relatively high or low relative to height, objective index of body weight (kg / m ^ 2)** using the ratio of height to weight, ideally 18.5 to 25
 * **steps:** average walking steps per day of policyholder
 * **children:** number of children / dependents of policyholder
