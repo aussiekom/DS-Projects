@@ -4,11 +4,10 @@ Time series analysis comprises methods for analyzing time series data in order t
 
 Time series are widely used for non-stationary data, like economic, weather, stock price, and retail sales in this post. In this repository contains different methods for forecasting time series, inclusing:
 * basic techniques (Naive method, simple average, simple moding average)
-* exponential smoothing techniques (simple exponential smoothing, Holt's method, Holt Winter's method)
-* 
-
-The superstore sales data is used, and can be downloaded here:
-https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls
+* exponential smoothing techniques (Simple exponential smoothing, Holt's method, Holt Winter's method)
+* auto regressive methods (ARIMA, SARIMA)
+* FB Prophet
+* more advanced techniques (N-BEATS, N-HiTS, PatchTST, TimesNet)
 
 Quick table to chose what is the better technique for forecasting your data:
 <img width="736" alt="picture" src="https://github.com/aussiekom/Time-Series-Forecasting/assets/102028836/626b0fcb-ccdb-43f4-b70f-07b9acae8337">
