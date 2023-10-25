@@ -2,4 +2,4 @@
 
 N-BEATS stands for Neural Basis Expansion Analyis for Interpretable Time Series.
 
-N-BEATS is a state-of-the-art deep learning model for time series forecasting that relies on the principle of **basis expansion.** The model can learn problem-specific functions for basis expansion.
+N-BEATS is a state-of-the-art deep learning model for time series forecasting that relies on the principle of **basis expansion.** 
