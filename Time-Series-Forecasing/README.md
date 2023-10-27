@@ -7,7 +7,7 @@ Time series are widely used for non-stationary data, like economic, weather, sto
 * exponential smoothing techniques (Simple exponential smoothing, Holt's method, Holt Winter's method)
 * auto regressive methods (ARIMA, SARIMA)
 * FB Prophet
-* more advanced techniques (N-BEATS, N-HiTS, PatchTST, TimesNet)
+* deep learning techniques (N-BEATS, N-HiTS, PatchTST, TimesNet)
 
 
 **Quick table to chose what is the better technique for forecasting your data:**
