@@ -11,7 +11,7 @@ from ipywidgets import interact
 
 # %%
 # read the dataset
-data = pd.read_csv('/Users/janekom/Library/Containers/com.microsoft.Excel/Data/Desktop/data.csv')
+data = pd.read_csv('/data.csv')
 
 # check the shape of the dataset
 print('Shape of the Dataset is: ', data.shape)
