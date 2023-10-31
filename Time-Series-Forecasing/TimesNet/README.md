@@ -63,7 +63,22 @@ This is achieved by performing various convolutions and pooling operations, and 
 
 You might wonder why the authors chose a vision model to treat time series data.
 
+**A simple answer to that is that vision models are particularly good at parsing 2D data, like images.**
 
+The other benefit is that the vision backbone can be changed inside TimesNet. While the authors use the Inception block, it can be changed to other vision model backbones, and so TimesNet can also benefit from the advances in computer vision.
+
+Now, one element that separates the Inception module in TimesNet from the inception module in GoogLeNet is the use of adaptive aggregation.
+
+### Adaptive aggregation
+To perform aggregation, the 2D representation must be reshaped to 1D vectors first.
+
+Then, adaptive aggregation is used, because different periods had different amplitudes, which indicates how important they are.
+
+This is why the output of the FTT is also sent to a softmax layer, so that the aggregation is done using the relative important of each period.
+
+The aggregated data is the output of a single TimesBlock. Then, multiple TimesBlock are stacked with residual connections to create the TimesNet model.
+
+Now that we understand how the TimesNet model works, let’s test it on a forecasting task, alongside N-BEATS and N-HITS.
 
 
 
