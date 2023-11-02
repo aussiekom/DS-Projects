@@ -17,6 +17,6 @@ The second type is interested in finding subsequences that are outliers. *An exa
 
 * First, a **robust Z-score** that uses the mean absolute deviation (MAD). This works well when the data is normally distributed and if the MAD is not 0.
 
-* Then, **isolation forest**, which a machine learning algorithm that determines how many times a dataset has to be partitioned in order to isolate a single point. If few partitions are necessary, then the point is an outlier. If many partitions are required, then the point is likely an inlier.
+* Second, **isolation forest**, which a machine learning algorithm that determines how many times a dataset has to be partitioned in order to isolate a single point. If few partitions are necessary, then the point is an outlier. If many partitions are required, then the point is likely an inlier.
 
 * Finally, **local outlier factor (LOF) method**, which is an unsupervised learning method that compares the local density of a point to that of its neighbours. Basically, if the density of a point is small compared to its neighbours, it means it is an isolated point, and likely an outlier.
