@@ -13,7 +13,7 @@ In the first type, we wish to find single points in time that are considered abn
 The second type is interested in finding subsequences that are outliers. *An example of that could be a stock that is trading at an abnormal level for many hours or days.*
 
 
-### In this code only point-wise anomaly detection was implemented, and three different methods were explored for outlier detection in time series data.
+### In this code only *point-wise anomaly detection* was implemented, and three different methods were explored for outlier detection in time series data.
 
 * First, a **robust Z-score** that uses the mean absolute deviation (MAD). This works well when the data is normally distributed and if the MAD is not 0.
 
