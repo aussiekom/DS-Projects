@@ -1,3 +1,8 @@
 ### Independent Component Analysis 
 
-Independent component analysis (ICA) is usually associated with dimensionality reduction tasks. However, the technique's most prominent application is separating linear contributions from the data, finding statistically independent components. 
+**ICA is yet another dimensionality reduction technique.** Data variables in the model are linear mixtures of some unknown latent variables and the latent variables are called the independent components of the observed data and are non gaussian and mutually independent in nature. ICA is related to principal component analysis and factor analysis.
+
+**The two broadest definitions of independence for ICA are:**
+
+* Minimization of mutual information
+* Maximization of non-Gaussianity
