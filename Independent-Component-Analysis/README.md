@@ -1,4 +1,9 @@
-### Independent Component Analysis 
+## Independent Component Analysis 
+
+This code provides the real-world case of usign ICA with the aim of *removing eye blink movement from EEG data.*
+
+
+### Here is the basic information about the ICA technique and its implementation:
 
 **ICA is yet another dimensionality reduction technique.** Data variables in the model are linear mixtures of some unknown latent variables and the latent variables are called the independent components of the observed data and are non gaussian and mutually independent in nature. ICA is related to principal component analysis and factor analysis.
 
