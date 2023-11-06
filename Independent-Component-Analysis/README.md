@@ -2,6 +2,8 @@
 
 **ICA is yet another dimensionality reduction technique.** Data variables in the model are linear mixtures of some unknown latent variables and the latent variables are called the independent components of the observed data and are non gaussian and mutually independent in nature. ICA is related to principal component analysis and factor analysis.
 
+**The most important part is that ICA assume statistically independent component rather than uncorrelated (such as PCA)**
+
 **The two broadest definitions of independence for ICA are:**
 
 * Minimization of mutual information
