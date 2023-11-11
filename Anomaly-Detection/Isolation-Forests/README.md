@@ -1,6 +1,6 @@
 ### Isolation Forests
 
-The isolation forest is an efficient machine learning algorithm designed specifically for anomaly detection. It was introduced by Fei Tony Liu, Kai Ming Ting, and Zhi-Hua Zhou in a research paper published in 2008. **The core idea behind the Isolation Forest is to isolate anomalies by recursively partitioning the dataset into subsets.**
+The isolation forest is an efficient machine learning algorithm designed specifically for anomaly detection. It was introduced by Fei Tony Liu, Kai Ming Ting, and Zhi-Hua Zhou in a research paper published in 2008. **The core idea behind the Isolation Forest is to isolate anomalies by recursively partitioning the dataset into subsets.** 
 
 Here are the details:
 
