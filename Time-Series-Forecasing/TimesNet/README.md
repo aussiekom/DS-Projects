@@ -1,4 +1,7 @@
 ### TimesNet
+
+Original paper can be found [here](https://browse.arxiv.org/pdf/2210.02186.pdf)
+
 The motivation behind TimesNet comes from the realization that many real-life time series exhibit mutli-periodicity. This means that variations occur at different periods.
 
 *For example, temperature outside has both a daily and a yearly period. Usually, it is hotter during the day than at night, and hotter during summer than in winter.*
