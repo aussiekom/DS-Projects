@@ -1,3 +1,3 @@
 ## Data Science Projects
 
-collection of projects
+collection of projects 
